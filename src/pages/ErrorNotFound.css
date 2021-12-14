@@ -1,0 +1,97 @@
+.error_background{
+  z-index: -1;
+  position: absolute;
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+
+.error_background .top-image{
+  position: absolute;
+  width: 30%;
+  top: 0;
+  left: 0;
+}
+.error_background .right-image{
+  position: absolute;
+  width: 30%;
+  right: 0;
+  bottom: 0;
+}
+.error-not-found {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+ 
+}
+.titulo_not_found {
+  text-align: center;
+  font-size: 15em;
+  font-weight: 100;
+  text-shadow: #33B5E5 1px 1px, #33B5E5 2px 2px, #33B5E5 3px 3px,
+    #33B5E5 4px 4px, #33B5E5 5px 5px, #33B5E5 6px 6px, #33B5E5 7px 7px,
+    #33B5E5 8px 8px, #33B5E5 9px 9px, #33B5E5 10px 10px, #33B5E5 11px 11px,
+    #33B5E5 12px 12px, #33B5E5 13px 13px, #33B5E5 14px 14px, #33B5E5 15px 15px;
+    
+}
+.error-not-found p{
+  font-size: 1.5em;
+  text-align: center;
+  font-weight: 100;
+}
+.error-not-found .error_boton{
+  text-decoration: none;
+  color: #fff;
+  background: #33B5E5;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 1.2em;
+  font-weight: 100;
+  margin-top: 20px;
+  transition: all 0.3s ease-in;
+}
+.error-not-found .error_boton:hover{
+  background: #0099CC;
+  color: #fff;
+}
+
+.error-not-found {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+.titulo_not_found {
+  text-align: center;
+  font-size: 15em;
+  font-weight: 100;
+  text-shadow: #33B5E5 1px 1px, #33B5E5 2px 2px, #33B5E5 3px 3px,
+    #33B5E5 4px 4px, #33B5E5 5px 5px, #33B5E5 6px 6px, #33B5E5 7px 7px,
+    #33B5E5 8px 8px, #33B5E5 9px 9px, #33B5E5 10px 10px, #33B5E5 11px 11px,
+    #33B5E5 12px 12px, #33B5E5 13px 13px, #33B5E5 14px 14px, #33B5E5 15px 15px;
+    
+}
+.error-not-found p{
+  font-size: 1.5em;
+  text-align: center;
+  font-weight: 100;
+}
+.error-not-found .error_boton{
+  text-decoration: none;
+  color: #fff;
+  background: #33B5E5;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 1.2em;
+  font-weight: 100;
+  margin-top: 20px;
+  transition: all 0.3s ease-in;
+}
+.error-not-found .error_boton:hover{
+  background: #03a0d4;
+}

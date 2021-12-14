@@ -1,0 +1,25 @@
+.boton__celeste{
+    background-color: #4B92FC !important;
+    color: #fff !important;
+    border: none !important;
+}
+.boton__celeste:hover{
+    background-color: #1a65d4 !important;
+    color: #fff !important;
+    border: none !important;
+}
+
+.solicitud__status__info{
+    width: 400px !important;
+    justify-content: center !important;
+    display: flex !important;
+    flex-direction: column !important;
+}
+.formulario p{
+    text-align: start !important;
+    font-weight: bold;
+}
+.formulario p span{
+    
+    font-weight: normal;
+}

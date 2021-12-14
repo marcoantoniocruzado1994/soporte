@@ -1,0 +1,18 @@
+.swal2-styled{
+	background-color: #a60000 !important;
+	border-color: #a60000 	!important;
+}
+
+.boton__new{
+    background-color: #4B92FC !important;
+    color: #fff !important;
+    border: none !important;
+}
+.boton__new:hover{
+    background-color: #1a65d4 !important;
+    color: #fff !important;
+    border: none !important;
+}
+	
+
+	
