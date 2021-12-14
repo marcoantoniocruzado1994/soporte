@@ -21,8 +21,20 @@ function App() {
         <Route path="/dashboard/*" element={<Dasboard />} >
           <Route path="usuarios" element={<p>Usuarios</p>} />
           <Route path="clientes" element={<p>Clientes</p>} />
-          <Route path="solicitud" element={<p>Solicitudes</p>} />
-          <Route path="configuracion" element={<p>Configuracion</p>} />
+          <Route path="solicitud" element={
+            <div className="">
+              <img className="" src="img/categoriaBienvenida.jpg" alt="" width="1200" height="750"/>
+              <h2> ¡Bienvenido a la categoría Solicitudes!</h2>
+              <h5> Desglose las opciones con un Click</h5>
+            </div>
+          } />
+          <Route path="configuracion" element={
+            <div className="">
+              <img className="" src="img/categoriaBienvenida.jpg" alt="" width="1200" height="750"/>
+              <h2> ¡Bienvenido a la categoría Configuración!</h2>
+              <h5> Desglose las opciones con un Click</h5>
+            </div>
+          } />
           <Route path="usuarios/agregar-usuario" element={<AddUser />} />
           <Route path="clientes/agregar-cliente" element={<AddClient/>} />
           <Route path="clientes/listar-cliente" element={<LisrtClient/>} />
