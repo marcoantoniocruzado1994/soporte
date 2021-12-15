@@ -1,10 +1,10 @@
 import React from 'react'
 import './SupportAndHelp.css';
 
-const SupportAndHelp = () => {
+function SupportAndHelp(SupportAndHelp){
     return (
         
-
+        <>
         <div className="">
 
             <img className="img-fluid" src="img/imagenEnConstruccion.jpg" alt=""/>
@@ -12,7 +12,7 @@ const SupportAndHelp = () => {
             <h2> Esta sección está en construcción.</h2>
             <h5> Estará listo pronto!</h5>
         </div>
-
+        </>
     )
 }
 
