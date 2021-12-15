@@ -2,7 +2,7 @@ import React from 'react'
 
 
 
-function ConfigProfile(ConfigProfile){
+function ConfigProfile(){
     return (
         
         <>

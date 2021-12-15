@@ -1,7 +1,7 @@
 import React from 'react'
 import './SupportAndHelp.css';
 
-function SupportAndHelp(SupportAndHelp){
+function SupportAndHelp(){
     return (
         
         <>
