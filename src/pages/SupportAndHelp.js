@@ -7,7 +7,7 @@ const SupportAndHelp = () => {
 
         <div className="">
 
-            <img className="" src="img/imagenEnConstruccion.jpg" alt="" width="1200" height="750"/>
+            <img className="img-fluid" src="img/imagenEnConstruccion.jpg" alt=""/>
 
             <h2> Esta sección está en construcción.</h2>
             <h5> Estará listo pronto!</h5>

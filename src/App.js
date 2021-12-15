@@ -23,14 +23,14 @@ function App() {
           <Route path="clientes" element={<p>Clientes</p>} />
           <Route path="solicitud" element={
             <div className="">
-              <img className="" src="img/categoriaBienvenida.jpg" alt="" width="1200" height="750"/>
+              <img className="img-fluid" src="img/categoriaBienvenida.jpg" alt="" />
               <h2> ¡Bienvenido a la categoría Solicitudes!</h2>
               <h5> Desglose las opciones con un Click</h5>
             </div>
           } />
           <Route path="configuracion" element={
             <div className="">
-              <img className="" src="img/categoriaBienvenida.jpg" alt="" width="1200" height="750"/>
+              <img className="img-fluid" src="img/categoriaBienvenida.jpg" alt="" />
               <h2> ¡Bienvenido a la categoría Configuración!</h2>
               <h5> Desglose las opciones con un Click</h5>
             </div>
